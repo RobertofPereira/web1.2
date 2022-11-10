@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --red-banner: #C12D0B;
+    --red-body: #CC5050;
+    --light-green: #9BCC50;
+    --orange: #FD7D24;
+}
+
+header{
+    background-color: var(--red-banner); /* #C12D0B */
+    padding: 10px;
+}
+
+header>h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1rem; /* 16px ----- 80px/5 */
+}
+
+body{
+    background-color: var(--red-body); /* #CC5050 */
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 140px);
+    grid-template-rows: repeat(4, 140px);
+    column-gap: 90px;
+    padding: 16px;
+}
+
+.card{
+    border-radius: 10px;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.card p{
+    font: 0.75rem;
+    font-weight: bold;
+}
+
+.card img{
+    width: 5rem;
+}
+
+/* Cor dos cards */
+.light-green{
+    background-color: var(--light-green);
+    color: #FFFFFF;
+}
+
+.orange{
+    background-color: var(--orange);
+    color: #FFFFFF;
+}
+
+/* Telas grandes */
+@media screen and (min-width:992px){
+    html{
+        font-size: 48px;
+    }
+}
