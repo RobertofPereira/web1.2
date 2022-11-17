@@ -57,13 +57,33 @@ main{
 }
 
 /* Cor dos cards */
-.light-green{
+.light-green {
     background-color: var(--light-green);
     color: #FFFFFF;
 }
 
-.orange{
+.orange {
     background-color: var(--orange);
+    color: #FFFFFF;
+}
+
+.blue {
+    background-color: #4592C4;
+    color: #FFFFFF;
+}
+
+.olive{
+    background-color: #739F40;
+    color: #FFFFFF;
+}
+
+.yellow{
+    background-color: #F7DE3F;
+    color: #FFFFFF;
+}
+
+.brown{
+    background-color: #D56723;
     color: #FFFFFF;
 }
 
