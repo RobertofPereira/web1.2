@@ -32,7 +32,7 @@ body{
 main{
     display: grid;
     grid-template-columns: repeat(2, auto);
-    column-gap: 90px;
+    column-gap: 6vw;
     row-gap: 20px;
     padding: 16px;
 }
