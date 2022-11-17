@@ -92,11 +92,19 @@ main{
     html{
         font-size: 24px;
     }
+    main{
+        grid-template-columns: repeat(3, auto);
+        column-gap: 70px;
+    }
 }
 
 /* Telas grandes */
 @media screen and (min-width:992px){
     html{
         font-size: 32px;
+    }
+    main{
+        grid-template-columns: repeat(4, auto);
+        column-gap: 90px;
     }
 }
