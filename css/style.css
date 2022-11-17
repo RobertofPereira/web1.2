@@ -33,8 +33,8 @@ main{
     display: grid;
     grid-template-columns: repeat(2, auto);
     column-gap: 6vw;
-    row-gap: 20px;
-    padding: 16px;
+    row-gap: 1.25rem; /* 20px */
+    padding: 1rem; /* 16px */
 }
 
 .card{
